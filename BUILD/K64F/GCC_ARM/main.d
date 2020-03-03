@@ -1,6 +1,7 @@
 BUILD\K64F\GCC_ARM\main.o: main.cpp BUILD\K64F\GCC_ARM\mbed_config.h \
- MMA8652FC/MMA8652.h mbed-os/mbed.h mbed-os/platform/mbed_version.h \
- mbed-os/rtos/rtos.h mbed-os/rtos/mbed_rtos_storage.h \
+ MiCS6814_GasSensor/MiCS6814_GasSensor.h mbed-os/mbed.h \
+ mbed-os/platform/mbed_version.h mbed-os/rtos/rtos.h \
+ mbed-os/rtos/mbed_rtos_storage.h \
  mbed-os/rtos/source/TARGET_CORTEX/mbed_rtx_storage.h \
  mbed-os/rtos/source/TARGET_CORTEX/rtx5/RTX/Include/rtx_os.h \
  mbed-os/rtos/source/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
@@ -175,4 +176,4 @@ BUILD\K64F\GCC_ARM\main.o: main.cpp BUILD\K64F\GCC_ARM\mbed_config.h \
  mbed-os/hal/mpu_api.h mbed-os/platform/ScopedRamExecutionLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- MiCS6814_GasSensor/MiCS6814_GasSensor.h
+ Adafruit_SGP30_mbed/Adafruit_SGP30.h waveshare_dust.h

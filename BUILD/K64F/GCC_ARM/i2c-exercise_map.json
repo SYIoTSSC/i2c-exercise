@@ -1,8 +1,19 @@
 [
     {
-        "module": "MMA8652FC\\MMA8652.o",
+        "module": "Adafruit_SGP30_mbed\\Adafruit_SGP30.o",
         "size": {
-            ".text": 264,
+            ".text": 388,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "MiCS6814_GasSensor\\MiCS6814_GasSensor.o",
+        "size": {
+            ".text": 1006,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -13,18 +24,18 @@
     {
         "module": "[fill]",
         "size": {
-            ".text": 158,
-            ".data": 4,
-            ".bss": 2229,
+            ".text": 156,
+            ".data": 11,
+            ".bss": 2257,
             ".text-delta": 0,
             ".data-delta": 0,
-            ".bss-delta": 0
+            ".bss-delta": 4
         }
     },
     {
         "module": "[lib]\\c.a",
         "size": {
-            ".text": 36206,
+            ".text": 28670,
             ".data": 2472,
             ".bss": 89,
             ".text-delta": 0,
@@ -37,6 +48,17 @@
         "size": {
             ".text": 3264,
             ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]\\m.a",
+        "size": {
+            ".text": 2946,
+            ".data": 1,
             ".bss": 0,
             ".text-delta": 0,
             ".data-delta": 0,
@@ -68,12 +90,12 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 414,
+            ".text": 612,
             ".data": 0,
-            ".bss": 436,
-            ".text-delta": 0,
+            ".bss": 880,
+            ".text-delta": -16,
             ".data-delta": 0,
-            ".bss-delta": 0
+            ".bss-delta": -4
         }
     },
     {
@@ -90,9 +112,9 @@
     {
         "module": "mbed-os\\drivers",
         "size": {
-            ".text": 1870,
+            ".text": 2288,
             ".data": 0,
-            ".bss": 44,
+            ".bss": 84,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -112,7 +134,7 @@
     {
         "module": "mbed-os\\platform",
         "size": {
-            ".text": 7934,
+            ".text": 8349,
             ".data": 260,
             ".bss": 313,
             ".text-delta": 0,
@@ -134,7 +156,7 @@
     {
         "module": "mbed-os\\targets",
         "size": {
-            ".text": 12929,
+            ".text": 14356,
             ".data": 36,
             ".bss": 414,
             ".text-delta": 0,
@@ -143,11 +165,22 @@
         }
     },
     {
+        "module": "waveshare_dust.o",
+        "size": {
+            ".text": 234,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
         "summary": {
-            "static_ram": 12608,
+            "static_ram": 13128,
             "static_ram_delta": 0,
-            "total_flash": 77103,
-            "total_flash_delta": 0
+            "total_flash": 76341,
+            "total_flash_delta": -16
         }
     }
 ]
